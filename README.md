@@ -1,24 +1,31 @@
-# ACM Research Coding Challenge (Spring 2021)
+I used to Python Pillow Library to create the image of the genome map. First I had to figure out how to read the GenBank format, which I used a YouTube video to do so. Then I looked up sample genome maps to see what I was supposed to create. After I understood the task, I used the trigonometry and geometry knowledge I had to create and format the map.
 
-## No Collaboration Policy
+Sources used:
 
-**You may not collaborate with anyone on this challenge.** You _are_ allowed to use Internet documentation. If you _do_ use existing code (either from Github, Stack Overflow, or other sources), **please cite your sources in the README**.
+Genbank format and examples of circular genome maps:
 
-## Submission Procedure
+https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0016451.g002
 
-Please follow the below instructions on how to submit your answers.
+https://www.youtube.com/watch?v=g5a__okj5Zs
 
-1. Create a **public** fork of this repo and name it `ACM-Research-Coding-Challenge-S21`. To fork this repo, click the button on the top right and click the "Fork" button.
-2. Clone the fork of the repo to your computer using `git clone [the URL of your clone]`. You may need to install Git for this (Google it).
-3. Complete the Challenge based on the instructions below.
-4. Submit your solution by filling out this [form](https://acmutd.typeform.com/to/uqAJNXUe).
+https://stackoverflow.com/questions/62706502/circular-visualization-in-python-with-piled-ranges
 
-## Question One
+Pillow examples and documentation:
 
-Genome analysis is the identification of genomic features such as gene expression or DNA sequences in an individual's genetic makeup. A genbank file (.gb) format contains information about an individual's DNA sequence. The following dataset in `Genome.gb` contains a complete genome sequence of Tomato Curly Stunt Virus. 
+https://code-maven.com/create-images-with-python-pil-pillow
 
-**With this file, create a circular genome map and output it as a JPG/PNG/JPEG format.** We're not looking for any complex maps, just be sure to highlight the features and their labels.
+https://pillow.readthedocs.io/en/3.1.x/reference/ImageDraw.html
 
-**You may use any programming language you feel most comfortable. We recommend Python because it is the easiest to implement. You're allowed to use any library you want to implement this**, just document which ones you used in this README file. Try to complete this as soon as possible.
+https://www.geeksforgeeks.org/python-pil-imagedraw-draw-line/
 
-Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
+https://pillow.readthedocs.io/en/stable/reference/ImageDraw.html
+
+https://www.geeksforgeeks.org/python-pil-imagedraw-draw-arc/
+
+Other general sources:
+
+https://stackoverflow.com/questions/8113782/split-string-on-whitespace-in-python
+
+https://stackoverflow.com/questions/3269434/whats-the-most-efficient-way-to-test-two-integer-ranges-for-overlap
+
+https://stackoverflow.com/questions/3121979/how-to-sort-a-list-tuple-of-lists-tuples-by-the-element-at-a-given-index
