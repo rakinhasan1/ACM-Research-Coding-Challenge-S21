@@ -1,4 +1,4 @@
-I used to Python Pillow Library to create the image of the genome map. First I had to figure out how to read the GenBank format, which I used a YouTube video to do so. Then I looked up sample genome maps to see what I was supposed to create. After I understood the task, I used the trigonometry and geometry knowledge I had to create and format the map.
+I used the Python Pillow Library to create the image of the genome map. First I had to figure out how to read the GenBank format, which I used a YouTube video to do so. Then I looked up sample genome maps to see what I was supposed to create. After I understood the task, I used the trigonometry and geometry knowledge I had to create and format the map.
 
 Sources used:
 
